@@ -1,13 +1,13 @@
 //Question 1
-var m=["Raid Redemption", "The Call", "Zodiac", "Social Network", "Forest Gump"];
+var m=["Troy", "The Grudge", "Inception", "You before Me", "Forest Gump"];
 console.log("Ques1",m[1]);
 
 //Question 2
 var movies=new Array(5);
-movies[0]="Raid Redemption";
-movies[1]="The Call";
-movies[2]="Zodiac";
-movies[3]="Social Network";
+movies[0]="Troy";
+movies[1]="The Grudge";
+movies[2]="Inception";
+movies[3]="You before Me";
 movies[4]="Forest Gump";
 console.log("Ques2",movies[0]);
 
@@ -19,20 +19,20 @@ console.log("Ques3",movies.length);
 
 //Question 4
 var new_movies = [];
-new_movies[0]="Raid Redemption";
-new_movies[1]="The Call";
-new_movies[2]="Zodiac";
-new_movies[3]="Social Network";
+new_movies[0]="Troy";
+new_movies[1]="The Grudge";
+new_movies[2]="Inception";
+new_movies[3]="You before Me";
 new_movies[4]="Forest Gump";
 delete new_movies[0];
 console.log("Ques4",new_movies);
 
 //Question 5
 var new_movies_1 = [];
-new_movies_1[0]="Raid Redemption";
-new_movies_1[1]="The Call";
-new_movies_1[2]="Zodiac";
-new_movies_1[3]="Social Network";
+new_movies_1[0]="Troy";
+new_movies_1[1]="The Grudge";
+new_movies_1[2]="Inception";
+new_movies_1[3]="You before Me";
 new_movies_1[4]="Forest Gump";
 new_movies_1[5]="American Sniper";
 new_movies_1[6]="Shutter Island";
@@ -56,7 +56,7 @@ for (var iterator of new_movies_1) {
 
 
 //Question 8
-var new_movies_1=["Raid Redemption", "The Call", "Zodiac", "Social Network", "Forest Gump", "American Sniper", "Shutter Island"];
+var new_movies_1=["Troy", "The Grudge", "Inception", "You before Me", "Forest Gump", "American Sniper", "Shutter Island"];
 var leastFavMovies=["The Menu", "Frozen", "See you Yesterday"];
 
 console.log("Ques8"+"\n");
@@ -113,7 +113,7 @@ console.log(allMovies);
 
 
 //Question 13
-var new_movies_2 = [["Raid Redemption", 1], ["The Call", 2], ["Social Network", 3], ["Zodiac", 4], ["Inception", 5]];
+var new_movies_2 = [["Raid Redemption", 1], ["The Grudge", 2], ["You before Me", 3], ["Inception", 4], ["Inception", 5]];
 
 var movieNames = new_movies_2.filter(function(movie) {
   return typeof movie[0] === "string";
