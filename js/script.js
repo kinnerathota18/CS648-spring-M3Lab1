@@ -1,5 +1,5 @@
 //Question 1
-var m=["Troy", "The Grudge", "Inception", "You before Me", "Forest Gump"];
+var m=["Troy", "The Grudge", "Inception", "You before Me", "The Mummy"];
 console.log("Ques1",m[1]);
 
 //Question 2
@@ -8,12 +8,12 @@ movies[0]="Troy";
 movies[1]="The Grudge";
 movies[2]="Inception";
 movies[3]="You before Me";
-movies[4]="Forest Gump";
+movies[4]="The Mummy";
 console.log("Ques2",movies[0]);
 
 
 //Question 3
-movies.splice(2,0,"American Sniper");
+movies.splice(2,0,"Venom");
 
 console.log("Ques3",movies.length);
 
@@ -23,7 +23,7 @@ new_movies[0]="Troy";
 new_movies[1]="The Grudge";
 new_movies[2]="Inception";
 new_movies[3]="You before Me";
-new_movies[4]="Forest Gump";
+new_movies[4]="The Mummy";
 delete new_movies[0];
 console.log("Ques4",new_movies);
 
@@ -33,9 +33,9 @@ new_movies_1[0]="Troy";
 new_movies_1[1]="The Grudge";
 new_movies_1[2]="Inception";
 new_movies_1[3]="You before Me";
-new_movies_1[4]="Forest Gump";
-new_movies_1[5]="American Sniper";
-new_movies_1[6]="Shutter Island";
+new_movies_1[4]="The Mummy";
+new_movies_1[5]="Venom";
+new_movies_1[6]="Baywatch";
 console.log("Ques5"+"\n");
 for (var key in new_movies_1) {
     console.log(new_movies_1[key]);
@@ -56,8 +56,8 @@ for (var iterator of new_movies_1) {
 
 
 //Question 8
-var new_movies_1=["Troy", "The Grudge", "Inception", "You before Me", "Forest Gump", "American Sniper", "Shutter Island"];
-var leastFavMovies=["The Menu", "Frozen", "See you Yesterday"];
+var new_movies_1=["Troy", "The Grudge", "Inception", "You before Me", "The Mummy", "Venom", "Baywatch"];
+var leastFavMovies=["The walk", "Cars", "Elvis"];
 
 console.log("Ques8"+"\n");
 console.log("Movies I like:");
@@ -101,7 +101,7 @@ allMovies.forEach((mo, index) => {
     doNotLikeIndices.push(index); }
 });
 
-var like = ["Inception", "Reverant", "Molly's Game"];
+var like = ["Inception", "Orphan", "Greta"];
 
 doNotLikeIndices.forEach((idx) => {
     allMovies[idx] = like.shift();
@@ -113,7 +113,7 @@ console.log(allMovies);
 
 
 //Question 13
-var new_movies_2 = [["Raid Redemption", 1], ["The Grudge", 2], ["You before Me", 3], ["Inception", 4], ["Inception", 5]];
+var new_movies_2 = [["Raid Redemption", 1], ["The Grudge", 2], ["Inception", 3], ["You before Me", 4], ["The Mummy", 5]];
 
 var movieNames = new_movies_2.filter(function(movie) {
   return typeof movie[0] === "string";
